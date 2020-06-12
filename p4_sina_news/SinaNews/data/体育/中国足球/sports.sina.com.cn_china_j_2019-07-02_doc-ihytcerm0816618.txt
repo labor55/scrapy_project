@@ -1,0 +1,79 @@
+
+                     
+									
+					
+					
+					贝尼特斯
+							
+			
+			
+				SINA_TEXT_PAGE_INFO['videoDatas0'] = [						{
+							ad_state: '1',
+							pid: '1',
+							video_id: 295839487,	//vid
+							pic: '//n.sinaimg.cn/sports/337/w650h487/20190702/047b-hzfekep0639980.jpg',		//节目列表小图
+							thumbUrl: '//n.sinaimg.cn/sports/337/w650h487/20190702/047b-hzfekep0639980.jpg',	//html5播放器上视频还未开始播显示的图片，可与pic相同
+							title: '大连一方官宣贝尼特斯上任',	//标题
+							source: '',	//视频发布来源。如：新华网。
+							url: 'http://video.sina.com.cn/p/sports/2019-07-02/detail-ihytcerm0828289.d.html'
+						}];
+				SinaPage.loadWidget({
+					trigger: {
+					id: 'videoList0'
+					},
+				require:[
+				{
+					url: "//sjs2.sinajs.cn/video/sinaplayer/js/page/player_v1.js"
+				},
+				{
+					url: "//finance.sina.com.cn/other/src/sinaPageVideo2017.js"
+				}
+				],
+				onAfterLoad: function () {
+					new SinaPageVideo({ 
+						 wrap:'videoList0',//播放器外层id 
+		 				videoList:SINA_TEXT_PAGE_INFO['videoDatas0']
+				 });
+			}
+			});
+		
+		
+　　7月2日，中超劲旅大连一方官方宣布世界级名帅贝尼特斯成为球队新任主帅。
+　　贝尼特斯与纽卡的合同在6月30日到期。据悉，贝尼特斯执教大连一方的年薪达到了1200万英镑，是纽卡时期的2倍。[中超顶级外援随你签！年度最佳网页足球经理]
+　　贝尼特斯是世界级名帅，曾执教皇家马德里、利物浦等豪门，率队获得欧冠、欧联杯、欧洲超级杯、世俱杯等荣誉。
+　　昨晚大连一方官方宣布，韩国主帅崔康熙因为个人原因辞职。
+			
+			
+			
+				SinaPage.loadWidget({
+					trigger:{
+						id:'entHdPic_1_0',
+					},
+			        require: [{
+			            url: '//n.sinaimg.cn/ent/mainpage/js/pl/hdfigure_v1.js'
+			        }],
+			        onAfterLoad: function () {
+			        	var entSlide_1_0 = new HdFigure('entHdPic_1_0', '//slide.sports.sina.com.cn/n_j/slide_2_789_219917.html#p=1');
+						entSlide_1_0.init();    
+			        }
+			    });
+			
+			
+　　大连一方俱乐部公告：
+　　今天，大连一方足球俱乐部很高兴地宣布聘请拉法·贝尼特斯先生为新任主教练。
+　　拉法·贝尼特斯先生现年59岁，西班牙人，在来大连之前曾在世界三大顶级联赛中成功执教，其中包括了瓦伦西亚、利物浦、国际米兰、切尔西、那不勒斯、皇家马德里、纽卡斯尔联等俱乐部。
+　　他所取得的众多辉煌荣誉中包括了2005年带领利物浦队夺得欧冠时所创造的“伊斯坦布尔奇迹”，以及在此之前执教瓦伦西亚队时所获得的两次西甲冠军和1次欧洲联盟杯冠军、2013年带领切尔西所取得的另一座欧洲联盟杯冠军、在国际米兰所取得的2010FIFA世界俱乐部杯赛冠军和意大利超级杯冠军等。在2015年转投皇家马德里之前他又在2014年带领那不勒斯队取得另外两个冠军头衔。
+　　在个人荣誉方面，他被冠以“战术大师”的称号，曾两次获得欧足联年度最佳教练奖（2004和2005年），并获得西班牙“年度最佳教练”以及多次英超联赛“月度最佳教练”等称号。
+　　大连一方俱乐部很荣幸能够在这一新的时期拥有拉法·贝尼特斯先生，我们相信通过他的努力定能再塑辉煌，实现广大球迷的期望。
+　　（高扬）
+ 
+
+					
+					
+                    
+                    
+                        
+
+                    
+                    
+                

@@ -1,0 +1,5 @@
+<GET http://s.askci.com/data/economy/2156/1/>
+<GET http://s.askci.com/data/economy/2156/1/>
+<GET http://s.askci.com/data/economy/2156/1/>
+<GET http://s.askci.com/data/economy/2156/1/>
+<GET http://s.askci.com/data/economy/2156/1/>
